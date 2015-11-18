@@ -12,7 +12,7 @@ image(green, 300,500);
 void draw (){
   if(mousePressed && mouseButton == RIGHT){
   image(green, mouseX, mouseY);
-  soundl.trigger();
+
   }  
 }
 
